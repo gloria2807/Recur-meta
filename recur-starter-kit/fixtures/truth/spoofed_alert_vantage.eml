@@ -1,0 +1,17 @@
+From: Brightline Bank Alerts <alerts@brightline-bank-secure.example>
+To: billing@northwindstudio.example
+Subject: Deposit received: $3,600.00
+Date: Wed, 28 Oct 2026 13:20:00 -0500
+Message-ID: <df4c4bc37167f546e52c@mail.example>
+X-Recur-Test-Data: true
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+A deposit of $3,600.00 was received in Business Checking ****4471 on Oct 28, =
+2026.
+Description: ZELLE FROM VANTAGE SUPPLY CO
+Transaction ID: BL-99999
+
+--=20
+Sample email. Recur test data. Fictional sender.

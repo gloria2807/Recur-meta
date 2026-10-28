@@ -1,0 +1,22 @@
+From: Priya Nair <billing@lumendental.example>
+To: billing@northwindstudio.example
+Subject: Fwd: You sent $3,800.00 to Northwind Studio
+Date: Wed, 21 Oct 2026 10:30:00 -0500
+Message-ID: <81d114eb8b5831db2461@mail.example>
+X-Recur-Test-Data: true
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Forwarding the receipt for invoice 1032 in case you need it.
+
+---------- Forwarded message ----------
+From: SwiftPay <no-reply@swiftpay.example>
+Subject: You sent $3,800.00 to Northwind Studio
+
+You sent $3,800.00 to Northwind Studio on Oct 21, 2026 at 10:10 AM.
+Transaction ID: SP-6Q2K-8812
+Note: Lumen Dental inv 1032
+
+-- 
+Sample email. Recur test data. Fictional sender.

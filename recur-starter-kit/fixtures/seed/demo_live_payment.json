@@ -1,0 +1,9 @@
+{
+  "note": "The live payment for the demo. Do not seed this record; it arrives during the video.",
+  "organisation": "northwind",
+  "amount_minor": 420000,
+  "currency": "USD",
+  "payer_name": "MARCUS HALE",
+  "reference": "Bluebird INV-1042",
+  "expected_effect": "e22 turns Verified for INV-1042; e23 becomes a Duplicate of e22; e21 stays Not received."
+}

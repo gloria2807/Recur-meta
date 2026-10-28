@@ -1,0 +1,18 @@
+{
+  "screenshot": {
+    "payer": "Marcus Hale",
+    "amount_minor": 420000,
+    "currency": "USD",
+    "date": "2026-10-28",
+    "reference": "SP-3CB7-2042",
+    "invoice_hint": "INV-1042"
+  },
+  "voicenote": {
+    "payer": "Marcus Hale",
+    "amount_minor": 420000,
+    "currency": "USD",
+    "date": "2026-10-28",
+    "reference": null,
+    "invoice_hint": "INV-1042"
+  }
+}

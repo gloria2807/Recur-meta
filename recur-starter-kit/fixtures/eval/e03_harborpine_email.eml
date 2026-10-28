@@ -1,0 +1,21 @@
+From: Accounts <accounts@harborpine.example>
+To: billing@northwindstudio.example
+Subject: Payment for invoice 1033
+Date: Thu, 22 Oct 2026 14:05:00 -0500
+Message-ID: <19fbf3ff284c2f2d0eaf@mail.example>
+X-Recur-Test-Data: true
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi Northwind team,
+
+We sent $6,150.00 by ACH today for invoice 1033 (August brand refresh). It sh=
+ould land this afternoon.
+
+Thanks,
+Rosa
+Harbor & Pine Hospitality
+
+--=20
+Sample email. Recur test data. Fictional sender.

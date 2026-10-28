@@ -1,0 +1,17 @@
+From: Brightline Bank Alerts <alerts@brightlinebank.example>
+To: billing@northwindstudio.example
+Subject: Deposit received: $1,500.00
+Date: Wed, 28 Oct 2026 08:51:00 -0500
+Message-ID: <19da5001fbf7ce3ded1e@mail.example>
+X-Recur-Test-Data: true
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+A deposit of $1,500.00 was received in Business Checking ****4471 on Oct 28, =
+2026.
+Description: ACH CREDIT ATLAS TUTORING 1043
+Transaction ID: BL-77315
+
+--=20
+Sample email. Recur test data. Fictional sender.

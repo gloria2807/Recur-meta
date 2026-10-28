@@ -1,0 +1,19 @@
+From: Lagoon Bank <alerts@lagoonbank.example>
+To: accounts@adaezefabrics.example
+Subject: Credit Alert: NGN240,000.00
+Date: Wed, 28 Oct 2026 11:13:00 +0100
+Message-ID: <5a6fec8587c983222684@mail.example>
+X-Recur-Test-Data: true
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Credit Alert
+Account: 01****7731
+Amount: NGN240,000.00
+Narration: TRF FRM IFEOMA EZE AF2207
+Date: 28-Oct-2026 11:12
+Reference: LGN-55121877
+
+-- 
+Sample email. Recur test data. Fictional sender.

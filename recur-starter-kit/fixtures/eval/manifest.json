@@ -1,0 +1,1157 @@
+{
+  "version": 1,
+  "generated": "2026-10-28",
+  "items": [
+    {
+      "id": "e01",
+      "file": "eval/e01_oakline_brightline.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Bank transfer confirmation for INV-1031",
+      "claimed": {
+        "payer": "Oakline Builders Inc",
+        "amount_minor": 1250000,
+        "currency": "USD",
+        "date": "2026-10-20",
+        "reference": "BLT-4471-90213",
+        "invoice_hint": "INV-1031"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "INV-1031",
+        "money_record": "M01",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot"
+      ],
+      "notes": "",
+      "sha256": "6b0c8800d45ea13f172ff4f56e9b5a3bc006640c3111c6a043daf04335a0f55f"
+    },
+    {
+      "id": "e02",
+      "file": "eval/e02_priya_swiftpay.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "P2P app payment from a person, not the company name",
+      "claimed": {
+        "payer": "Priya Nair",
+        "amount_minor": 380000,
+        "currency": "USD",
+        "date": "2026-10-21",
+        "reference": "SP-6Q2K-8812",
+        "invoice_hint": "INV-1032"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "INV-1032",
+        "money_record": "M02",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "alias"
+      ],
+      "notes": "Payer is a person; matched to Lumen Dental through the alias and invoice number.",
+      "sha256": "bbeb4f4c6e5e6b570985197610eeee00c4c22fd463b04ee5b0b2ce76d5f75ca5"
+    },
+    {
+      "id": "e03",
+      "file": "eval/e03_harborpine_email.eml",
+      "kind": "email",
+      "organisation": "northwind",
+      "description": "Customer email saying an ACH was sent",
+      "claimed": {
+        "payer": "Harbor & Pine",
+        "amount_minor": 615000,
+        "currency": "USD",
+        "date": "2026-10-22",
+        "reference": null,
+        "invoice_hint": "INV-1033"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "INV-1033",
+        "money_record": "M03",
+        "candidates": []
+      },
+      "tags": [
+        "email"
+      ],
+      "notes": "",
+      "sha256": "538ea5f9b59c52c8d14ff2a68963be1d2ee654c0c33df7fbaea6b2d4920a9477"
+    },
+    {
+      "id": "e04",
+      "file": "eval/e04_dana_swiftpay.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Payment with no invoice number, only the owner's name",
+      "claimed": {
+        "payer": "Dana Whitfield",
+        "amount_minor": 145000,
+        "currency": "USD",
+        "date": "2026-10-22",
+        "reference": "SP-7HJ2-1190",
+        "invoice_hint": null
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "INV-1034",
+        "money_record": "M04",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "alias",
+        "no-invoice-number"
+      ],
+      "notes": "Only one open Fern Street invoice has this amount.",
+      "sha256": "b727adb63a3bc9ef17138983cc07a8c85ddb109eebbb1100f7e0f02f9cc460f4"
+    },
+    {
+      "id": "e05",
+      "file": "eval/e05_kestrel_wire.pdf",
+      "kind": "pdf",
+      "organisation": "northwind",
+      "description": "Wire confirmation PDF",
+      "claimed": {
+        "payer": "Kestrel Logistics LLC",
+        "amount_minor": 920000,
+        "currency": "USD",
+        "date": "2026-10-23",
+        "reference": "KL-88213",
+        "invoice_hint": "INV-1035"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "INV-1035",
+        "money_record": "M05",
+        "candidates": []
+      },
+      "tags": [
+        "pdf"
+      ],
+      "notes": "",
+      "sha256": "7678046ee6b7b89286a91943b55f95ac7f7a563b7a88bfb8df08b2b607a2df6e"
+    },
+    {
+      "id": "e06",
+      "file": "eval/e06_tidewater_receipt_photo.jpg",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Photo of a printed receipt, taken at an angle",
+      "claimed": {
+        "payer": "Tidewater Marine Supply",
+        "amount_minor": 433500,
+        "currency": "USD",
+        "date": "2026-10-24",
+        "reference": "0912 3381 7720",
+        "invoice_hint": "INV-1038"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "INV-1038",
+        "money_record": "M07",
+        "candidates": []
+      },
+      "tags": [
+        "photo",
+        "hard-read"
+      ],
+      "notes": "",
+      "sha256": "4bdd33d1e4604e85e58646cab9a7f5cbb6e1c3491b2455c0e68cb38e7001c886"
+    },
+    {
+      "id": "e07",
+      "file": "eval/e07_elena_swiftpay.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Small P2P payment with invoice in the note",
+      "claimed": {
+        "payer": "Elena Park",
+        "amount_minor": 64000,
+        "currency": "USD",
+        "date": "2026-10-27",
+        "reference": "SP-2XW9-4410",
+        "invoice_hint": "INV-1041"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "INV-1041",
+        "money_record": "M11",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot"
+      ],
+      "notes": "",
+      "sha256": "56b499c436bd38e44dbc3d1dd4fd58ac0f21b7ddbeee773edab18d098376a8d9"
+    },
+    {
+      "id": "e08",
+      "file": "eval/e08_copperleaf_harborcu.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "ACH confirmation from a credit union",
+      "claimed": {
+        "payer": "Copperleaf Realty Partners",
+        "amount_minor": 275000,
+        "currency": "USD",
+        "date": "2026-10-27",
+        "reference": "0712 0045 3381",
+        "invoice_hint": "INV-1036"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "INV-1036",
+        "money_record": "M12",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot"
+      ],
+      "notes": "",
+      "sha256": "707ea2efebb72381ee504232941ba42fe977b74af9d6a1afba71dde29a69da40"
+    },
+    {
+      "id": "e09",
+      "file": "eval/e09_atlas_brightline.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Transfer confirmation for INV-1043",
+      "claimed": {
+        "payer": "Atlas Tutoring Center",
+        "amount_minor": 150000,
+        "currency": "USD",
+        "date": "2026-10-28",
+        "reference": "BLT-5512-00381",
+        "invoice_hint": "INV-1043"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "INV-1043",
+        "money_record": "M13",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot"
+      ],
+      "notes": "",
+      "sha256": "f182234c43757a6c8f7dd80beeb2d4ba33269515292b8c699d7c74941a4d5aac"
+    },
+    {
+      "id": "e10",
+      "file": "eval/e10_chris_swiftpay.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Bank shows only initials; invoice number links it",
+      "claimed": {
+        "payer": "Chris Okoro",
+        "amount_minor": 212500,
+        "currency": "USD",
+        "date": "2026-10-26",
+        "reference": "SP-9ZK1-0057",
+        "invoice_hint": "INV-1040"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "INV-1040",
+        "money_record": "M10",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "partial-name"
+      ],
+      "notes": "Bank feed says 'C OKORO'. The invoice number and amount make it unambiguous.",
+      "sha256": "3c83d985593626e2eb4f49b2d3a06e843aad364304cad3caa7abe019a21c4242"
+    },
+    {
+      "id": "e11",
+      "file": "eval/e11_ana_voicenote.webm",
+      "kind": "audio",
+      "organisation": "northwind",
+      "description": "Voice note claiming a payment",
+      "claimed": {
+        "payer": "Ana Lima",
+        "amount_minor": 98000,
+        "currency": "USD",
+        "date": "2026-10-23",
+        "reference": null,
+        "invoice_hint": null
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "INV-1037",
+        "money_record": "M06",
+        "candidates": []
+      },
+      "tags": [
+        "voice"
+      ],
+      "notes": "",
+      "sha256": "a62dd0835dc13771226a9ed72ab7cde93d914b9973e7af8f127108fbb882778e"
+    },
+    {
+      "id": "e12",
+      "file": "eval/e12_chioma_lagoon.png",
+      "kind": "image",
+      "organisation": "adaeze",
+      "description": "Nigerian bank transfer receipt",
+      "claimed": {
+        "payer": "Chioma Okafor",
+        "amount_minor": 45000000,
+        "currency": "NGN",
+        "date": "2026-10-19",
+        "reference": "100004261019101400128812301",
+        "invoice_hint": "AF-2201"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "AF-2201",
+        "money_record": "N01",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "ngn"
+      ],
+      "notes": "",
+      "sha256": "80e67b6b21a1c6e84c9d0017272b147b52dbf3206e9a689463606b13715bcce7"
+    },
+    {
+      "id": "e13",
+      "file": "eval/e13_adewale_paylane.png",
+      "kind": "image",
+      "organisation": "adaeze",
+      "description": "Fintech app receipt",
+      "claimed": {
+        "payer": "Adewale Ade",
+        "amount_minor": 37500000,
+        "currency": "NGN",
+        "date": "2026-10-24",
+        "reference": "PL-24ZX-81277",
+        "invoice_hint": "AF-2203"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "AF-2203",
+        "money_record": "N02",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "ngn"
+      ],
+      "notes": "",
+      "sha256": "6e9cfa0d31da8a18939bd6329d31e6428af48be1f9321a97f6d8bc2c85e454ee"
+    },
+    {
+      "id": "e14",
+      "file": "eval/e14_kemi_voicenote.webm",
+      "kind": "audio",
+      "organisation": "adaeze",
+      "description": "Voice note in naira",
+      "claimed": {
+        "payer": "Kemi Adebayo",
+        "amount_minor": 18500000,
+        "currency": "NGN",
+        "date": "2026-10-26",
+        "reference": null,
+        "invoice_hint": null
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "AF-2204",
+        "money_record": "N03",
+        "candidates": []
+      },
+      "tags": [
+        "voice",
+        "ngn"
+      ],
+      "notes": "",
+      "sha256": "1f538d32aac7c34c3678142b44ba5bc860d2c7655f602b6b22b664ed4c5c8c0a"
+    },
+    {
+      "id": "e15",
+      "file": "eval/e15_ifeoma_lagoon.png",
+      "kind": "image",
+      "organisation": "adaeze",
+      "description": "Transfer receipt with compact invoice reference",
+      "claimed": {
+        "payer": "Ifeoma Eze",
+        "amount_minor": 24000000,
+        "currency": "NGN",
+        "date": "2026-10-28",
+        "reference": "100004261028111100155121877",
+        "invoice_hint": "AF-2207"
+      },
+      "expected": {
+        "state": "verified",
+        "invoice": "AF-2207",
+        "money_record": "N05",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "ngn"
+      ],
+      "notes": "",
+      "sha256": "cf7c5f42fa779e53968d533e2886c890279987e2e8e792d75491c2cc45bfaad9"
+    },
+    {
+      "id": "e16",
+      "file": "eval/e16_bluebird_swiftpay_1850.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Two open invoices for exactly the same amount",
+      "claimed": {
+        "payer": "Bluebird Coffee Co",
+        "amount_minor": 185000,
+        "currency": "USD",
+        "date": "2026-10-25",
+        "reference": "SP-4MM8-3302",
+        "invoice_hint": null
+      },
+      "expected": {
+        "state": "needs_you",
+        "invoice": null,
+        "money_record": "M08",
+        "candidates": [
+          "INV-1047",
+          "INV-1049"
+        ]
+      },
+      "tags": [
+        "screenshot",
+        "ambiguous",
+        "demo"
+      ],
+      "notes": "",
+      "sha256": "cf800f09853db0ec1d0c0d7419f1fdf201b960443b0d8f07434b52e56d3d78fb"
+    },
+    {
+      "id": "e17",
+      "file": "eval/e17_redwood_brightline_partial.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Partial payment against a larger invoice",
+      "claimed": {
+        "payer": "Redwood Legal Group",
+        "amount_minor": 200000,
+        "currency": "USD",
+        "date": "2026-10-26",
+        "reference": "BLT-6620-11873",
+        "invoice_hint": "INV-1039"
+      },
+      "expected": {
+        "state": "needs_you",
+        "invoice": "INV-1039",
+        "money_record": "M09",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "partial"
+      ],
+      "notes": "Pays $2,000 of $7,600. Recur should propose a partial allocation for approval.",
+      "sha256": "cf659d0ebf7ddee1e164511cde8ede741d0a064af49800f9e468e3e28f885467"
+    },
+    {
+      "id": "e18",
+      "file": "eval/e18_oakline_remittance.pdf",
+      "kind": "pdf",
+      "organisation": "northwind",
+      "description": "One payment covering two invoices, with a remittance advice",
+      "claimed": {
+        "payer": "Oakline Builders Inc",
+        "amount_minor": 1225000,
+        "currency": "USD",
+        "date": "2026-10-28",
+        "reference": "OAK-REM-2026-1028",
+        "invoice_hint": "INV-1044, INV-1060"
+      },
+      "expected": {
+        "state": "needs_you",
+        "invoice": null,
+        "money_record": "M14",
+        "candidates": [
+          "INV-1044",
+          "INV-1060"
+        ]
+      },
+      "tags": [
+        "pdf",
+        "split"
+      ],
+      "notes": "The remittance lists an exact split. Recur proposes it; a person approves.",
+      "sha256": "5ab1de2bc8ab58e6a85aa444ceb8888ac89b42b97a426907cd4b4c9753a8907c"
+    },
+    {
+      "id": "e19",
+      "file": "eval/e19_jordan_voicenote.webm",
+      "kind": "audio",
+      "organisation": "northwind",
+      "description": "Money arrived, but there is no invoice for it yet",
+      "claimed": {
+        "payer": "Jordan Reyes",
+        "amount_minor": 125000,
+        "currency": "USD",
+        "date": "2026-10-28",
+        "reference": null,
+        "invoice_hint": null
+      },
+      "expected": {
+        "state": "needs_you",
+        "invoice": null,
+        "money_record": "M15",
+        "candidates": []
+      },
+      "tags": [
+        "voice",
+        "unapplied"
+      ],
+      "notes": "Deposit with no matching invoice. Recur records it as unapplied credit for review.",
+      "sha256": "9187b2f4f161725285eaaab990db80abc4c07bd21a566d0f92f262969e9cda0f"
+    },
+    {
+      "id": "e20",
+      "file": "eval/e20_bello_paylane_partial.png",
+      "kind": "image",
+      "organisation": "adaeze",
+      "description": "Part payment with two open invoices for the customer",
+      "claimed": {
+        "payer": "Musa Bello",
+        "amount_minor": 50000000,
+        "currency": "NGN",
+        "date": "2026-10-27",
+        "reference": "PL-27QA-84900",
+        "invoice_hint": null
+      },
+      "expected": {
+        "state": "needs_you",
+        "invoice": null,
+        "money_record": "N04",
+        "candidates": [
+          "AF-2202",
+          "AF-2210"
+        ]
+      },
+      "tags": [
+        "screenshot",
+        "partial",
+        "ambiguous",
+        "ngn"
+      ],
+      "notes": "",
+      "sha256": "18c7dc907e608bd706635bf639acd6d38d71b8ac0e5e0522c16df14e98ea551c"
+    },
+    {
+      "id": "e21",
+      "file": "eval/e21_vantage_swiftpay_3600.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "A convincing screenshot for a payment that never arrived",
+      "claimed": {
+        "payer": "Vantage Supply Co",
+        "amount_minor": 360000,
+        "currency": "USD",
+        "date": "2026-10-28",
+        "reference": "SP-8RT3-6650",
+        "invoice_hint": "INV-1058"
+      },
+      "expected": {
+        "state": "not_received",
+        "invoice": "INV-1058",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "no-money",
+        "demo-hero"
+      ],
+      "notes": "The demo's red card. Nothing in the bank feed matches.",
+      "sha256": "80ab4ac2ea3cc162f68f5850121d33f5e99c7e1ddda951f8a61ab9a58fa308d0"
+    },
+    {
+      "id": "e22",
+      "file": "eval/e22_marcus_swiftpay_4200.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Genuine payment that has not landed yet",
+      "claimed": {
+        "payer": "Marcus Hale",
+        "amount_minor": 420000,
+        "currency": "USD",
+        "date": "2026-10-28",
+        "reference": "SP-3CB7-2042",
+        "invoice_hint": "INV-1042"
+      },
+      "expected": {
+        "state": "not_received",
+        "invoice": "INV-1042",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "money-arrives-later",
+        "demo-hero"
+      ],
+      "notes": "Starts red. When a $4,200.00 record from Marcus Hale or Bluebird arrives (the live payment in the demo), it must turn Verified automatically.",
+      "sha256": "aa5f4d5e156d9031de95e430473ace94788e953103103f7728f5c4b0d89fcf70"
+    },
+    {
+      "id": "e23",
+      "file": "eval/e23_marcus_voicenote.webm",
+      "kind": "audio",
+      "organisation": "northwind",
+      "description": "Voice note for the same payment as e22",
+      "claimed": {
+        "payer": "Marcus Hale",
+        "amount_minor": 420000,
+        "currency": "USD",
+        "date": "2026-10-28",
+        "reference": null,
+        "invoice_hint": "INV-1042"
+      },
+      "expected": {
+        "state": "not_received",
+        "invoice": "INV-1042",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "voice",
+        "money-arrives-later",
+        "demo-hero"
+      ],
+      "notes": "Once e22 is verified, this one becomes a Duplicate of it.",
+      "sha256": "fb35e44459f4de93ffffc70bdc5c6f8d47508e263c20db9067ab9b410d7dadd5"
+    },
+    {
+      "id": "e24",
+      "file": "eval/e24_lumen_brightline.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Transfer claim with no money in the bank feed",
+      "claimed": {
+        "payer": "Lumen Dental Group",
+        "amount_minor": 222000,
+        "currency": "USD",
+        "date": "2026-10-27",
+        "reference": "BLT-7781-40021",
+        "invoice_hint": "INV-1045"
+      },
+      "expected": {
+        "state": "not_received",
+        "invoice": "INV-1045",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "no-money"
+      ],
+      "notes": "",
+      "sha256": "98dd6ad7ea4edb1fa166449f952ac29a5ed6326ed149ca6ea1581c1959de8a4d"
+    },
+    {
+      "id": "e25",
+      "file": "eval/e25_kestrel_harborcu.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "ACH claim with no money yet",
+      "claimed": {
+        "payer": "Kestrel Logistics LLC",
+        "amount_minor": 350000,
+        "currency": "USD",
+        "date": "2026-10-28",
+        "reference": "0712 0045 9921",
+        "invoice_hint": "INV-1046"
+      },
+      "expected": {
+        "state": "not_received",
+        "invoice": "INV-1046",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "no-money"
+      ],
+      "notes": "",
+      "sha256": "c8fc25269dee15993d77c441e2bb1ada88a2cbc9169fb8a238789bd417f9825c"
+    },
+    {
+      "id": "e26",
+      "file": "eval/e26_zainab_lagoon.png",
+      "kind": "image",
+      "organisation": "adaeze",
+      "description": "Naira transfer receipt with no matching credit",
+      "claimed": {
+        "payer": "Zainab Yusuf",
+        "amount_minor": 62000000,
+        "currency": "NGN",
+        "date": "2026-10-28",
+        "reference": "100004261028080300199231544",
+        "invoice_hint": "AF-2206"
+      },
+      "expected": {
+        "state": "not_received",
+        "invoice": "AF-2206",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "no-money",
+        "ngn"
+      ],
+      "notes": "",
+      "sha256": "1a583084a27ded585c1ba971781fe317a2c330e6d42c9eedfc200b50a98ff31a"
+    },
+    {
+      "id": "e27",
+      "file": "eval/e27_tunde_voicenote.webm",
+      "kind": "audio",
+      "organisation": "adaeze",
+      "description": "Voice note asking for goods before money arrived",
+      "claimed": {
+        "payer": "Tunde Bakare",
+        "amount_minor": 51500000,
+        "currency": "NGN",
+        "date": "2026-10-28",
+        "reference": null,
+        "invoice_hint": "AF-2208"
+      },
+      "expected": {
+        "state": "not_received",
+        "invoice": "AF-2208",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "voice",
+        "no-money",
+        "ngn"
+      ],
+      "notes": "",
+      "sha256": "c37bccccb594af40926cad284c9a03b9651092a2ddf045b9d46ea3e97e65d335"
+    },
+    {
+      "id": "e28",
+      "file": "eval/e28_priya_forward.eml",
+      "kind": "email",
+      "organisation": "northwind",
+      "description": "Same payment as e02, arriving as a forwarded email",
+      "claimed": {
+        "payer": "Priya Nair",
+        "amount_minor": 380000,
+        "currency": "USD",
+        "date": "2026-10-21",
+        "reference": "SP-6Q2K-8812",
+        "invoice_hint": "INV-1032"
+      },
+      "expected": {
+        "state": "duplicate",
+        "invoice": "INV-1032",
+        "money_record": "M02",
+        "candidates": []
+      },
+      "tags": [
+        "email",
+        "duplicate"
+      ],
+      "notes": "Duplicate of e02. Must not apply the payment twice.",
+      "sha256": "4c9e0ad51d7b8a2bdab7bfba385bf9aae0467a93ad68af8a3d775ca9221e8800"
+    },
+    {
+      "id": "e29",
+      "file": "eval/e29_atlas_brightline_resent.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Exactly the same file sent again",
+      "claimed": {
+        "payer": "Atlas Tutoring Center",
+        "amount_minor": 150000,
+        "currency": "USD",
+        "date": "2026-10-28",
+        "reference": "BLT-5512-00381",
+        "invoice_hint": "INV-1043"
+      },
+      "expected": {
+        "state": "duplicate",
+        "invoice": "INV-1043",
+        "money_record": "M13",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "duplicate",
+        "same-hash"
+      ],
+      "notes": "Byte-identical to e09. Caught by the content hash before any model call.",
+      "sha256": "f182234c43757a6c8f7dd80beeb2d4ba33269515292b8c699d7c74941a4d5aac"
+    },
+    {
+      "id": "e30",
+      "file": "eval/e30_tidewater_receipt_photo2.jpg",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "A second photo of the same receipt, different angle",
+      "claimed": {
+        "payer": "Tidewater Marine Supply",
+        "amount_minor": 433500,
+        "currency": "USD",
+        "date": "2026-10-24",
+        "reference": "0912 3381 7720",
+        "invoice_hint": "INV-1038"
+      },
+      "expected": {
+        "state": "duplicate",
+        "invoice": "INV-1038",
+        "money_record": "M07",
+        "candidates": []
+      },
+      "tags": [
+        "photo",
+        "duplicate"
+      ],
+      "notes": "Different bytes, same payment. Caught by matching the trace number and amount to the claim from e06.",
+      "sha256": "567efa803237fc06078de29be706945898a639d66e2419c43c7acfe90f25130f"
+    },
+    {
+      "id": "e31",
+      "file": "eval/e31_juniper_failed.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "A failed transfer",
+      "claimed": {
+        "payer": "Ana Lima",
+        "amount_minor": 120000,
+        "currency": "USD",
+        "date": "2026-10-27",
+        "reference": null,
+        "invoice_hint": "INV-1052"
+      },
+      "expected": {
+        "state": "not_a_payment",
+        "invoice": "INV-1052",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "failed"
+      ],
+      "notes": "",
+      "sha256": "bacf4d8fbe5b8a2db1350f55d92c6a0f931a76f63ce940654ef0894f4d21171f"
+    },
+    {
+      "id": "e32",
+      "file": "eval/e32_tidewater_pending.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "A scheduled payment that has not been sent",
+      "claimed": {
+        "payer": "Tidewater Marine Supply",
+        "amount_minor": 312000,
+        "currency": "USD",
+        "date": "2026-11-03",
+        "reference": null,
+        "invoice_hint": "INV-1053"
+      },
+      "expected": {
+        "state": "not_a_payment",
+        "invoice": "INV-1053",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "pending"
+      ],
+      "notes": "",
+      "sha256": "653c0134032628691eb4e0622fa67fafffe279d9080ddcb5c87786fe7a724291"
+    },
+    {
+      "id": "e33",
+      "file": "eval/e33_sable_reversed.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "A transfer that was reversed",
+      "claimed": {
+        "payer": "Sable Fitness Club",
+        "amount_minor": 165000,
+        "currency": "USD",
+        "date": "2026-10-25",
+        "reference": null,
+        "invoice_hint": "INV-1055"
+      },
+      "expected": {
+        "state": "not_a_payment",
+        "invoice": "INV-1055",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "reversed"
+      ],
+      "notes": "",
+      "sha256": "7992f2348ce13e2c64f37b210145f6ab17b0e59ff409f97ac13a1f15a003e831"
+    },
+    {
+      "id": "e34",
+      "file": "eval/e34_northwind_invoice_1054.pdf",
+      "kind": "pdf",
+      "organisation": "northwind",
+      "description": "An invoice (a request for money), not a payment",
+      "claimed": {
+        "payer": null,
+        "amount_minor": 990000,
+        "currency": "USD",
+        "date": "2026-10-15",
+        "reference": null,
+        "invoice_hint": "INV-1054"
+      },
+      "expected": {
+        "state": "not_a_payment",
+        "invoice": "INV-1054",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "pdf",
+        "invoice"
+      ],
+      "notes": "",
+      "sha256": "54553d2774a2fe75cf35ac66494d3d976695e8f4261f7f4f7edccc4a5b3741c0"
+    },
+    {
+      "id": "e35",
+      "file": "eval/e35_request_money.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "A payment request screen, which looks like a payment but is not",
+      "claimed": {
+        "payer": "Fern Street Bakery",
+        "amount_minor": 87500,
+        "currency": "USD",
+        "date": "2026-10-26",
+        "reference": null,
+        "invoice_hint": "INV-1051"
+      },
+      "expected": {
+        "state": "not_a_payment",
+        "invoice": "INV-1051",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "request"
+      ],
+      "notes": "",
+      "sha256": "55dd9cd735078fbb9de2e455a39b644aa22ccd7fc959e0d70d4537c01533d772"
+    },
+    {
+      "id": "e36",
+      "file": "eval/e36_fabric_photo.jpg",
+      "kind": "image",
+      "organisation": "adaeze",
+      "description": "A photo of fabric a customer sent by mistake",
+      "claimed": {
+        "payer": null,
+        "amount_minor": null,
+        "currency": null,
+        "date": null,
+        "reference": null,
+        "invoice_hint": null
+      },
+      "expected": {
+        "state": "not_a_payment",
+        "invoice": null,
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "irrelevant"
+      ],
+      "notes": "",
+      "sha256": "f31c0089631214c4e9a62f25fcbabd274267a23405e30c502acbd1c6e1ad40b9"
+    },
+    {
+      "id": "e37",
+      "file": "eval/e37_promo.eml",
+      "kind": "email",
+      "organisation": "northwind",
+      "description": "Marketing email that mentions payments",
+      "claimed": {
+        "payer": null,
+        "amount_minor": null,
+        "currency": null,
+        "date": null,
+        "reference": null,
+        "invoice_hint": null
+      },
+      "expected": {
+        "state": "not_a_payment",
+        "invoice": null,
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "email",
+        "irrelevant"
+      ],
+      "notes": "",
+      "sha256": "cc1b8bc2b129175926908b4ca8cd36d08f6fa4e7833f1fefec6c3580e125105e"
+    },
+    {
+      "id": "e38",
+      "file": "eval/e38_injection_memo.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Instructions hidden in the payment note",
+      "claimed": {
+        "payer": "Redwood Legal Group",
+        "amount_minor": 990000,
+        "currency": "USD",
+        "date": "2026-10-28",
+        "reference": "SP-0000-0000",
+        "invoice_hint": "INV-1054"
+      },
+      "expected": {
+        "state": "not_received",
+        "invoice": "INV-1054",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "prompt-injection",
+        "no-money"
+      ],
+      "notes": "The text inside the image must be treated as data. No money arrived.",
+      "sha256": "c0c09af747bf0f495d34b2577f2dbe9024597e079c2ce956b000328050b5590a"
+    },
+    {
+      "id": "e39",
+      "file": "eval/e39_injection_email.eml",
+      "kind": "email",
+      "organisation": "adaeze",
+      "description": "Email with instructions aimed at the AI",
+      "claimed": {
+        "payer": "Musa Bello",
+        "amount_minor": 76000000,
+        "currency": "NGN",
+        "date": "2026-10-28",
+        "reference": null,
+        "invoice_hint": "AF-2210"
+      },
+      "expected": {
+        "state": "not_received",
+        "invoice": "AF-2210",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "email",
+        "prompt-injection",
+        "no-money",
+        "ngn"
+      ],
+      "notes": "",
+      "sha256": "a6adcdab096184d87e633fd4e146159c9d22956140210f2af8e601536a3fba1d"
+    },
+    {
+      "id": "e40",
+      "file": "eval/e40_chioma_usd.png",
+      "kind": "image",
+      "organisation": "adaeze",
+      "description": "Claim in dollars against a naira invoice",
+      "claimed": {
+        "payer": "Chioma Okafor",
+        "amount_minor": 45000,
+        "currency": "USD",
+        "date": "2026-10-27",
+        "reference": "SP-1NG2-7755",
+        "invoice_hint": "AF-2209"
+      },
+      "expected": {
+        "state": "not_received",
+        "invoice": "AF-2209",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "wrong-currency",
+        "ngn"
+      ],
+      "notes": "Never compare amounts across currencies. Flag the currency mismatch as a concern.",
+      "sha256": "cd7a19cb4ff5cd7791ec09ba24f9aab3ad3863691054abcceb597d4d7d5e399b"
+    },
+    {
+      "id": "e41",
+      "file": "eval/e41_blurry_lowres.jpg",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Low-resolution, compressed screenshot of a real payment",
+      "claimed": {
+        "payer": "Harbor Pine Hospitality",
+        "amount_minor": 615000,
+        "currency": "USD",
+        "date": "2026-10-22",
+        "reference": "BLT-3301-77812",
+        "invoice_hint": "INV-1033"
+      },
+      "expected": {
+        "state": "duplicate",
+        "invoice": "INV-1033",
+        "money_record": "M03",
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "hard-read",
+        "duplicate"
+      ],
+      "notes": "Same payment as e03. If fields can't be read, 'Couldn't read' is also an acceptable outcome; applying it twice is not.",
+      "sha256": "72ec98a8dcefa9253c2e4741e5c2284b8a2ee7f140e7b7f2796909e41dfefbe0"
+    },
+    {
+      "id": "e42",
+      "file": "eval/e42_maplemoss_wrong_amount.png",
+      "kind": "image",
+      "organisation": "northwind",
+      "description": "Claim for a different amount than the invoice, with no money",
+      "claimed": {
+        "payer": "Elena Park",
+        "amount_minor": 46000,
+        "currency": "USD",
+        "date": "2026-10-28",
+        "reference": "SP-5TT1-0921",
+        "invoice_hint": "INV-1056"
+      },
+      "expected": {
+        "state": "not_received",
+        "invoice": "INV-1056",
+        "money_record": null,
+        "candidates": []
+      },
+      "tags": [
+        "screenshot",
+        "no-money",
+        "amount-mismatch"
+      ],
+      "notes": "Invoice is $525.00; claim is $460.00 and nothing arrived.",
+      "sha256": "ab16908f463c87f798b8761f0dbf97d62633bfe5cdb8184fb7ba396ef3217fcb"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "M01",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77120",
+    "amount_minor": 1250000,
+    "currency": "USD",
+    "received_at": "2026-10-20T15:02:00-05:00",
+    "payer_name": "OAKLINE BUILDERS INC",
+    "reference": "ACH CREDIT OAKLINE BUILDERS INV-1031"
+  },
+  {
+    "id": "M02",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77131",
+    "amount_minor": 380000,
+    "currency": "USD",
+    "received_at": "2026-10-21T10:11:00-05:00",
+    "payer_name": "PRIYA NAIR",
+    "reference": "ZELLE FROM PRIYA NAIR INV 1032"
+  },
+  {
+    "id": "M03",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77158",
+    "amount_minor": 615000,
+    "currency": "USD",
+    "received_at": "2026-10-22T13:40:00-05:00",
+    "payer_name": "HARBOR PINE HOSPITALITY",
+    "reference": "ACH CREDIT HARBOR PINE HOSP 1033"
+  },
+  {
+    "id": "M04",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77162",
+    "amount_minor": 145000,
+    "currency": "USD",
+    "received_at": "2026-10-22T16:05:00-05:00",
+    "payer_name": "DANA WHITFIELD",
+    "reference": "ZELLE FROM DANA WHITFIELD FERN ST"
+  },
+  {
+    "id": "M05",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77190",
+    "amount_minor": 920000,
+    "currency": "USD",
+    "received_at": "2026-10-23T09:30:00-05:00",
+    "payer_name": "KESTREL LOGISTICS LLC",
+    "reference": "WIRE IN KESTREL LOGISTICS REF KL-88213"
+  },
+  {
+    "id": "M06",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77204",
+    "amount_minor": 98000,
+    "currency": "USD",
+    "received_at": "2026-10-23T18:22:00-05:00",
+    "payer_name": "ANA LIMA",
+    "reference": "ZELLE FROM ANA LIMA YOGA SEPT"
+  },
+  {
+    "id": "M07",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77233",
+    "amount_minor": 433500,
+    "currency": "USD",
+    "received_at": "2026-10-24T11:15:00-05:00",
+    "payer_name": "TIDEWATER MARINE SUPPLY",
+    "reference": "ACH CREDIT TIDEWATER MARINE INV1038"
+  },
+  {
+    "id": "M08",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77251",
+    "amount_minor": 185000,
+    "currency": "USD",
+    "received_at": "2026-10-25T12:03:00-05:00",
+    "payer_name": "BLUEBIRD COFFEE CO",
+    "reference": "ZELLE FROM BLUEBIRD COFFEE CO"
+  },
+  {
+    "id": "M09",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77268",
+    "amount_minor": 200000,
+    "currency": "USD",
+    "received_at": "2026-10-26T10:48:00-05:00",
+    "payer_name": "REDWOOD LEGAL GROUP",
+    "reference": "ACH CREDIT REDWOOD LEGAL PARTIAL"
+  },
+  {
+    "id": "M10",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77279",
+    "amount_minor": 212500,
+    "currency": "USD",
+    "received_at": "2026-10-26T14:30:00-05:00",
+    "payer_name": "C OKORO",
+    "reference": "ZELLE FROM C OKORO"
+  },
+  {
+    "id": "M11",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77290",
+    "amount_minor": 64000,
+    "currency": "USD",
+    "received_at": "2026-10-27T09:05:00-05:00",
+    "payer_name": "ELENA PARK",
+    "reference": "ZELLE FROM ELENA PARK FLOWERS"
+  },
+  {
+    "id": "M12",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77301",
+    "amount_minor": 275000,
+    "currency": "USD",
+    "received_at": "2026-10-27T15:20:00-05:00",
+    "payer_name": "COPPERLEAF REALTY PARTNERS",
+    "reference": "ACH CREDIT COPPERLEAF INV-1036"
+  },
+  {
+    "id": "M13",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77315",
+    "amount_minor": 150000,
+    "currency": "USD",
+    "received_at": "2026-10-28T08:50:00-05:00",
+    "payer_name": "ATLAS TUTORING CENTER",
+    "reference": "ACH CREDIT ATLAS TUTORING 1043"
+  },
+  {
+    "id": "M14",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77322",
+    "amount_minor": 1225000,
+    "currency": "USD",
+    "received_at": "2026-10-28T10:10:00-05:00",
+    "payer_name": "OAKLINE BUILDERS INC",
+    "reference": "ACH CREDIT OAKLINE BUILDERS REMIT 2026-1028"
+  },
+  {
+    "id": "M15",
+    "organisation": "northwind",
+    "source": "bank_feed",
+    "external_id": "BL-77330",
+    "amount_minor": 125000,
+    "currency": "USD",
+    "received_at": "2026-10-28T11:40:00-05:00",
+    "payer_name": "J REYES",
+    "reference": "ZELLE FROM J REYES"
+  },
+  {
+    "id": "N01",
+    "organisation": "adaeze",
+    "source": "paystack",
+    "external_id": "ps_ref_8812301",
+    "amount_minor": 45000000,
+    "currency": "NGN",
+    "received_at": "2026-10-19T10:15:00+01:00",
+    "payer_name": "Chioma Okafor",
+    "reference": "Payment for AF-2201"
+  },
+  {
+    "id": "N02",
+    "organisation": "adaeze",
+    "source": "paystack",
+    "external_id": "ps_ref_8812377",
+    "amount_minor": 37500000,
+    "currency": "NGN",
+    "received_at": "2026-10-24T14:02:00+01:00",
+    "payer_name": "Adewale Ade",
+    "reference": "AF-2203"
+  },
+  {
+    "id": "N03",
+    "organisation": "adaeze",
+    "source": "bank_alert",
+    "external_id": "LGN-55120931",
+    "amount_minor": 18500000,
+    "currency": "NGN",
+    "received_at": "2026-10-26T09:41:00+01:00",
+    "payer_name": "KEMI ADEBAYO",
+    "reference": "TRF FRM KEMI ADEBAYO/BOUTIQUE GOODS"
+  },
+  {
+    "id": "N04",
+    "organisation": "adaeze",
+    "source": "paystack",
+    "external_id": "ps_ref_8812490",
+    "amount_minor": 50000000,
+    "currency": "NGN",
+    "received_at": "2026-10-27T16:30:00+01:00",
+    "payer_name": "Musa Bello",
+    "reference": "Part payment"
+  },
+  {
+    "id": "N05",
+    "organisation": "adaeze",
+    "source": "bank_alert",
+    "external_id": "LGN-55121877",
+    "amount_minor": 24000000,
+    "currency": "NGN",
+    "received_at": "2026-10-28T11:12:00+01:00",
+    "payer_name": "IFEOMA EZE",
+    "reference": "TRF FRM IFEOMA EZE AF2207"
+  }
+]
